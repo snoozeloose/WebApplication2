@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{5AFEF218-DFEB-45BA-849E-B11F917F1533}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wwwroot", "wwwroot", "{4A9E002B-683C-40EC-B38D-79DBBDDB404F}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{7DF45987-E0CF-456D-80E7-CB589774ABE0}"
+	ProjectSection(SolutionItems) = preProject
+		StyleSheet1.css = StyleSheet1.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{43554583-A972-4592-B09E-805D6F1ACC24}"
+	ProjectSection(SolutionItems) = preProject
+		storage.js = storage.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Meal plans", "Meal plans", "{7D19607C-4183-46C5-A9F7-470148F40CBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{F39820CE-9AC7-45B4-9DF7-21FDB481F918}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AFEF218-DFEB-45BA-849E-B11F917F1533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AFEF218-DFEB-45BA-849E-B11F917F1533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AFEF218-DFEB-45BA-849E-B11F917F1533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AFEF218-DFEB-45BA-849E-B11F917F1533}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7DF45987-E0CF-456D-80E7-CB589774ABE0} = {4A9E002B-683C-40EC-B38D-79DBBDDB404F}
+		{43554583-A972-4592-B09E-805D6F1ACC24} = {4A9E002B-683C-40EC-B38D-79DBBDDB404F}
+		{7D19607C-4183-46C5-A9F7-470148F40CBA} = {4A9E002B-683C-40EC-B38D-79DBBDDB404F}
+		{F39820CE-9AC7-45B4-9DF7-21FDB481F918} = {4A9E002B-683C-40EC-B38D-79DBBDDB404F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F951C27D-C701-4BEF-83C7-CDC623BB543C}
+	EndGlobalSection
+EndGlobal
